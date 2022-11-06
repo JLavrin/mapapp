@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "NodeNext",
+      "outDir": "dist",
+      "noEmit": false
+    },
+    "include": ["src/server"],
+    "ts-node": {
+        "esm": true
+    }
+  }
+  
